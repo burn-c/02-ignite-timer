@@ -3,7 +3,7 @@ import { differenceInSeconds } from 'date-fns'
 
 import { CountdownContainer, Separator } from './styles'
 
-import { CyclesContext } from '../../index'
+import { CyclesContext } from '../../../../contexts/CyclesContext'
 
 export default function Countdown() {
   const {
